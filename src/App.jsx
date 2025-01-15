@@ -3,7 +3,7 @@ import { Trophy } from 'lucide-react';
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://leader-board-assignment-backend.vercel.app/api';
 
 function App() {
   const [users, setUsers] = useState([]);
